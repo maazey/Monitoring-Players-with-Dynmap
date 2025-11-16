@@ -136,7 +136,7 @@
   <ItemGroup>
     <ClCompile Include="char.cpp" />
     <ClCompile Include="Client.cpp" />
-    <ClCompile Include="PlayerMonitoring.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="char.h" />

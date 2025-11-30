@@ -113,8 +113,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\C++ libraries\curl-8.17.0;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libcurl.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;Normaliz.lib;Secur32.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\C++ libraries\boost_1_89_0\stage\lib;E:\C++ libraries\boost_1_89_0;E:\C++ libraries\curl-8.17.0;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libboost_json-vc143-mt-gd-x64-1_89.lib;libboost_json-vc143-mt-x64-1_89.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -137,6 +137,7 @@
     <ClCompile Include="char.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Not_important_Client_funcs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="char.h" />

@@ -109,6 +109,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>E:\C++ libraries\boost_1_89_0;E:\C++ libraries\curl-8.17.0\include\curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -135,13 +136,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="char.cpp" />
-    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Handler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Not_important_Client_funcs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="char.h" />
-    <ClInclude Include="Client.h" />
+    <ClInclude Include="Handler.h" />
+    <ClInclude Include="DataManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

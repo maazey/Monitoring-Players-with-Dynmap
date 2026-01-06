@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "Client.h"
+#include "Handler.h"
 
 
-void Client::confirmAction() {
+void Handler::confirmAction() {
 	std::cout << "\nPress \"Enter\" to continue running the program or type \"Exit\" to exit.\n";
 	std::string line;
 	std::getline(std::cin, line);

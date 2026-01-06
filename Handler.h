@@ -12,7 +12,7 @@ namespace asio = boost::asio;
 namespace http = boost::beast::http;
 using tcp = asio::ip::tcp;
 
-class Client {
+class Handler {
 private:
 	std::string port;
 	std::string address;
@@ -23,9 +23,11 @@ private:
 	void confirmAction();
 
 public:
-	Client(std::string _address, std::string _port, std::string _target_address, asio::io_context& ioc);
+	Handler(std::string _address, std::string _port, std::string _target_address, asio::io_context& ioc);
 	std::string SendRequest();
+
+	std::string convertTime(const unsigned long long time);
 	void parseJson(std::string& string_json);
-	void loopRequests(std::function<void(std::string&)> parse);
+
 	void SetConnection();
 };

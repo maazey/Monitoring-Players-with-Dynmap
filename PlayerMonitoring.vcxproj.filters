@@ -18,13 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="char.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Handler.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Not_important_Client_funcs.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

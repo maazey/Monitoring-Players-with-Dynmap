@@ -135,10 +135,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="char.cpp" />
     <ClCompile Include="Handler.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Not_important_Client_funcs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="char.h" />
